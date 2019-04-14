@@ -1,4 +1,6 @@
-path_name = "C:/Users/Owner/PycharmProjects/Memrize/Sonnets/Sonnet"
+from pathlib import Path
+
+path_name = Path(r"C:\Users\Owner\PycharmProjects\Memrize\Sonnet18.txt")
 poem_lines = []
 user_words = []
 
@@ -18,7 +20,7 @@ def tailor_user_line(userline, poemline):
         return userline
 
 
-file = open(path_name + str(18) + '.txt', 'r')
+file = open(path_name, 'r')
 poem = file.readlines()
 for line in poem:
     poem_lines.append(line.split(" "))
