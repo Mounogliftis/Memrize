@@ -333,3 +333,6 @@ ASALocalRun/
 # Venv
 mezmrize/
 *.vscode
+venv
+*.iml
+.gitignore
