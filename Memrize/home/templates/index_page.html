@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poems</title>
+</head>
+<body>
+    {% for poem in poems %}
+    <a>{{poem.name}}</a>
+    <p><{{poem.text}}</p>
+    {% endfor %}
+</html>
