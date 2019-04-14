@@ -33,6 +33,7 @@ for i in range(1, 15):
         temp_words.append(word)
     poem_lines[i] = temp_words
     #print(poem_words[i])
+    #print('Daniel Abela is a piece of shit')
 
 del poem_lines[0]
 for poem_line in poem_lines:
