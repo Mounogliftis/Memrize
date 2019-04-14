@@ -9,6 +9,6 @@ from pathlib import Path
 
 
 class PoemsIndex(ListView):
-    queryset = models.Poems
+    queryset = models.Poem
     context_object_name = "Poems"
     template_name = Path(r"C:\Users\Owner\PycharmProjects\Memrize\Memrize\home\templates\index_page.html")
